@@ -38,10 +38,11 @@ function runTimer() {
       seconds = newSeconds;
     }
     mainEl.textContent = minutes+":"+seconds
-    if(timeRemaining === 0) {
+    if(timeRemaining <= 0) {
 
       clearInterval(timeInterval);
       mainEl.textContent = 'Run Complete';
+      return;
     }
   },1000);
   
@@ -101,9 +102,13 @@ function masksify(){
   timerBtn.classList.remove('wingsTheme');
 };
 
+function keydownStart(){
 window.addEventListener("keydown", function(e){
   event.stopPropagation();
   var code = e.keyCode;
    if(code == 16){
     countdown();   
-   }}) ;
+   }})} ;
+
+keydownStart();   
+
