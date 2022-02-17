@@ -10,11 +10,12 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+
 }
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: white
 }
 
 .wrapper {
@@ -28,6 +29,11 @@ header {
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
+  background-color: blue;
+  color:white;
+  max-width: 800px;
+  width: 75%;
+  margin: 0 auto;
 }
 
 .card {
@@ -76,7 +82,7 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: blue;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -136,4 +142,49 @@ button[disabled] {
   .btn {
     font-size: 0.8rem;
   }
+}
+
+.theme_container{
+  margin: 15px;
+  display: flex;
+  justify-content: space-around
+}
+
+.bladesBTN {
+  background-image: url('violetbladesbanner.PNG');
+  width: 20%;
+  height: 200px;
+  background-size: cover;
+  border: none
+}
+
+.wingsBTN {
+  background-image: url('Goldwingbanner.PNG');
+  width: 20%;
+  height: 200px;
+  background-size: cover;
+  border: none
+}
+
+.masksBTN {
+  background-image: url('redmasksbanner.PNG');
+  width: 20%;
+  height: 200px;
+  background-size: cover;
+  border: none
+}
+
+.bladesTheme{
+  background-color: purple;
+  color: white;
+}
+
+.wingsTheme{
+  background-color: gold;
+  color: black;
+}
+
+.masksTheme{
+  background-color: hsl(360, 91%, 36%);;
+  color: white;
 }
