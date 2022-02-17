@@ -160,7 +160,7 @@ button[disabled] {
 }
 
 .bladesBTN {
-  background-image: url('violetbladesbanner.PNG');
+  background-image: url('violetbladesbanner.png');
   width: 20%;
   min-width: 200px;
   height: 200px;
@@ -170,7 +170,7 @@ button[disabled] {
 }
 
 .wingsBTN {
-  background-image: url('Goldwingbanner.PNG');
+  background-image: url('Goldwingbanner.png');
   min-width: 200px;
   width: 20%;
   height: 200px;
@@ -180,7 +180,7 @@ button[disabled] {
 }
 
 .masksBTN {
-  background-image: url('redmasksbanner.PNG');
+  background-image: url('redmasksbanner.png');
   width: 20%;
   height: 200px;
   min-width: 200px;
