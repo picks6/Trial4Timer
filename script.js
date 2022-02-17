@@ -112,3 +112,16 @@ window.addEventListener("keydown", function(e){
 
 keydownStart();   
 
+function darkify(){
+  bodyEl = document.getElementById('body');
+  bodyEl.classList.toggle("dark-body");
+  wingsBtn.classList.toggle('dark-body');
+  bladesBtn.classList.toggle('dark-body');
+  masksBtn.classList.toggle('dark-body');
+  cardEl = document.getElementById('card')
+  cardEl.classList.toggle('dark-card');
+  mainEl.classList.toggle('dark-body')
+}
+
+var darkBtn = document.getElementById('dark-mode');
+darkBtn.addEventListener('click', darkify)
